@@ -1,0 +1,39 @@
+.wrappedBar{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 15px;
+
+}
+
+.imgNav{
+    height: 40px;
+    padding-right: 15px ;
+
+}
+
+.buttonNav{
+    align-items: center;
+    margin-left: 15px;
+    width: 100px;
+    height: 45px;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0);
+    color:#A9D3E9
+    
+    
+}
+.buttonNav:hover{
+    background-color: white;
+}
+.inputNav{
+    width: 300px;
+    height: 45px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid #B7D53E;
+
+}

@@ -1,0 +1,96 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
+.form{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh; /* Ajusta la altura según tus necesidades */
+}
+
+.imgForm{
+    width: 200px;
+    height: 200px;
+}
+
+.formText{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    background: transparent;
+    backdrop-filter: blur(15px) ;
+    border-radius: 20px;
+    padding: 50px;
+    border: solid 2px #B8E0F3;
+    background: rgba(80, 80, 80, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.9px);
+    -webkit-backdrop-filter: blur(8.9px);
+
+    
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-65%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 1s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -10px;
+}
+
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 5px;
+    color: #fff;
+}
+.butLogin{
+    color: black;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.butLogin:hover{
+    background: #B8E0F3;
+}

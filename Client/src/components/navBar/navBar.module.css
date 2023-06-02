@@ -1,0 +1,30 @@
+ .div{
+    height: 70px;
+    display: flex;
+    background: #171717;
+
+} 
+
+.Navbuttons{
+    margin-top: 15px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
+    display: flex;
+    
+    margin-left: 15px;
+    width: 100px;
+    height: 45px;
+    font-weight: 600;
+    color:#A9D3E9;
+    text-decoration: none;
+   
+}
+
+.Navbuttons:hover{
+    background-color: white;
+} 
+
+.search:focus{
+    color:white 
+}
